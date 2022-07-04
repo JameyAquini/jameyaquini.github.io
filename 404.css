@@ -1,9 +1,9 @@
 :root {
-	--primary: rgb(41, 38, 38);
+	--primary: #ccac88;
 	--grey: #ccac88;
 	/* #888 */
 
-	--card-width: 320px;
+	--card-width: 520px;
 	--image-width: calc(var(--card-width) / 1.5);
 }
 
@@ -61,19 +61,19 @@ main {
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
 
-.card:hover {
+.card .content {
 	--card-width: 480px;
 	--image-width: calc(var(--card-width) / 2);
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
 
-.card:hover .image {
+.card .content .image {
 	margin-top: -4rem;
 	border-radius: 2rem;
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
 
-.card:hover .image img {
+.card .content .image img {
 	border-radius: 2rem;
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
@@ -93,13 +93,21 @@ main {
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
 
-.card .content p {
+.card .content h1{
+    color: var(--grey);
+    font-size: 160px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+  }
+
+.card .content p, h2 {
 	color: var(--grey);
 	font-size: 1.125rem;
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
 
-.card:hover .content {
+.card .content {
 	max-height: 300px;
 	opacity: 1;
 	overflow: visible;
@@ -107,11 +115,16 @@ main {
 }
 
 .card .buttons {
-	display: flex;
+	display: center;
 	justify-content: center;
 	align-items: center;
 	margin-top: 1.5rem;
 	cursor: url('Cursors/GrabCursor.png'), auto;
+    text-decoration: none;
+}
+
+.card .buttons a {
+    text-decoration: none;
 }
 
 .card .buttons button {
@@ -120,22 +133,18 @@ main {
 	outline: none;
 	background: none;
 	cursor: url('Cursors/GrabCursor.png'), auto;
+    text-decoration: none;
 
-	display: block;
 	padding: 0.5rem 1rem;
 	border-radius: 0.25rem;
-	background-color: rgb(41, 38, 38);
-	color: #FFF;
+	background-color: #ccac88;
 	font-size: 1.25rem;
 	font-weight: 700;
-	margin: 0 0.5rem;
-	min-width: 160px;
-	transition: 0.4s;
 }
 
 .card .buttons button:hover {
 	box-shadow: 0 2px 6px rgb(41, 38, 38);
+    background-color: #ccac88;
 	transform: translateY(-0.5rem) scale(1.15);
-	text-decoration: none;
 	cursor: url('Cursors/GrabCursor.png'), auto;
 }
