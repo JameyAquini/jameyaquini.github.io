@@ -15,7 +15,7 @@
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
 
-main {
+main{
 	min-height: 100vh;
 	background-image: linear-gradient(to bottom right,#ccac88, #cfc5b5);
 	display: flex;
