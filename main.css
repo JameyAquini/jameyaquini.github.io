@@ -106,6 +106,26 @@ main {
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
 
+.discord-icon {
+	width: 0px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 10px;
+	border-radius: 10%;
+	cursor: url('Cursors/GrabCursor.png'), auto;
+}
+
+.card:hover .discord-icon{
+	width: 45px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 10px;
+	border-radius: 10%;
+	cursor: url('Cursors/GrabCursor.png'), auto;
+}
+
 .card .buttons {
 	display: flex;
 	justify-content: center;
