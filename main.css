@@ -1,6 +1,6 @@
 :root {
-	--primary: rgb(41, 38, 38);
-	--grey: #ccac88;
+	--primary: #fff;
+	--grey: #ffffff;
 	/* #888 */
 
 	--card-width: 320px;
@@ -17,7 +17,7 @@
 
 main {
 	min-height: 100vh;
-	background-image: linear-gradient(to bottom right,#ccac88, #cfc5b5);
+	background-image: linear-gradient(to bottom right,#14192b, #48445c);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -28,7 +28,7 @@ main {
 	position: relative;
 	width: 100%;
 	max-width: var(--card-width);
-	background-color: rgb(41, 38, 38);
+	background-color: rgb(44, 46, 49);
 	border-radius: 1rem;
 	padding: 1.5rem;
 	text-align: center;
@@ -48,7 +48,7 @@ main {
 	transition: 0.4s;
 	overflow: hidden;
 	padding: 0.25rem;
-	background-color: rgb(41, 38, 38);
+	background-color: rgb(44, 46, 49);
 	box-shadow: 0 2px 6px rgb(43, 42, 42);
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
@@ -144,7 +144,7 @@ main {
 	display: block;
 	padding: 0.5rem 1rem;
 	border-radius: 0.25rem;
-	background-color: rgb(41, 38, 38);
+	background-color: rgb(44, 46, 49);
 	color: #FFF;
 	font-size: 1.25rem;
 	font-weight: 700;
@@ -154,7 +154,6 @@ main {
 }
 
 .card .buttons button:hover {
-	box-shadow: 0 2px 6px rgb(41, 38, 38);
 	transform: translateY(-0.5rem) scale(1.15);
 	text-decoration: none;
 	cursor: url('Cursors/GrabCursor.png'), auto;
