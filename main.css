@@ -1,6 +1,6 @@
 :root {
 	--primary: rgb(44, 46, 49);
-	--grey: #e09474;
+	--grey: #7870b3;
 	/* #888 */
 
 	--card-width: 320px;
@@ -17,7 +17,7 @@
 
 main {
 	min-height: 100vh;
-	background-image: linear-gradient(to bottom right,#8c5c4c,#d38c6e,#fbae86,#fcdb84);
+	background-image: linear-gradient(to bottom right,#a29dd5,#9383c9,#7870b3,#62548d,#433e6b);
 	display: flex;
 	align-items: center;
 	justify-content: center;
