@@ -1,6 +1,6 @@
 :root {
 	--primary: rgb(44, 46, 49);
-	--grey: #7870b3;
+	--grey: #fff;
 	/* #888 */
 
 	--card-width: 320px;
@@ -17,7 +17,7 @@
 
 main {
 	min-height: 100vh;
-	background-image: linear-gradient(to bottom right,#a29dd5,#9383c9,#7870b3,#62548d,#433e6b);
+	background-image: linear-gradient(to bottom right,#1e1e1e,#111111,#000000);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -34,7 +34,7 @@ main {
 	text-align: center;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 	transition: 0.4s;
-	box-shadow: 0 2px 6px rgb(43, 42, 42);
+	box-shadow: 0 2px 6px #000000;
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
 
@@ -49,7 +49,6 @@ main {
 	overflow: hidden;
 	padding: 0.25rem;
 	background-color: rgb(44, 46, 49);
-	box-shadow: 0 2px 6px rgb(43, 42, 42);
 	cursor: url('Cursors/pointerCursor.png'), auto;
 }
 
