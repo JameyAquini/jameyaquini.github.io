@@ -17,7 +17,7 @@
 
 main {
 	min-height: 100vh;
-	background-image: linear-gradient(to bottom right,#1e1e1e,#111111,#000000);
+	background-image: linear-gradient(to bottom right,#ac915c,#b39961,#d1b378,#e8c58d);
 	display: flex;
 	align-items: center;
 	justify-content: center;
